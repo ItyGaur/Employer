@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api"  // ← direct link
+    baseURL: "https://employer-wnd4.onrender.com"  // ← direct link
 });
 
 API.interceptors.request.use((req) => {
